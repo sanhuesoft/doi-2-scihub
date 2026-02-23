@@ -7,7 +7,7 @@ chrome.storage.sync.get('sciHubDomain', (data) => {
     domainInput.value = data.sciHubDomain;
   } else {
     // Si es la primera vez, usamos uno por defecto
-    domainInput.placeholder = "sci-hub.se";
+    domainInput.placeholder = "sci-hub.in";
   }
 });
 
@@ -15,7 +15,7 @@ document.getElementById('save').addEventListener('click', () => {
   let domain = document.getElementById('domain').value.trim();
   domain = domain.replace(/^https?:\/\//, '').replace(/\/$/, ''); 
   
-  if (!domain) domain = 'sci-hub.se';
+  if (!domain) domain = 'sci-hub.in';
 
   chrome.storage.sync.set({ sciHubDomain: domain }, () => {
     const newRule = {
