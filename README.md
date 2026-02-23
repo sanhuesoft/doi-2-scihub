@@ -1,6 +1,6 @@
-# Sci-Huber: DOI Redirector
+# doi-2-scihub: DOI Redirector
 
-**Sci-Huber** is a lightweight Chrome extension built on **Manifest V3** that automatically redirects `doi.org` links to a customizable Sci-Hub instance. It is designed to streamline the workflow for researchers and academics by bypassing manual URL editing.
+**doi-2-scihub** is a lightweight Chrome extension built on **Manifest V3** that automatically redirects `doi.org` links to a customizable Sci-Hub instance. It is designed to streamline the workflow for researchers and academics by bypassing manual URL editing.
 
 ## 🚀 Features
 
@@ -22,9 +22,9 @@ Since this extension is not on the Chrome Web Store, you can install it manually
 
 Sci-Hub domains often go offline or change. To keep the extension functional:
 
-1.  Click the **Sci-Huber icon** in your browser toolbar or go to the extension's **Options** page.
+1.  Click the **doi-2-scihub icon** in your browser toolbar or go to the extension's **Options** page.
 2.  In the "Current Domain" field, enter the active Sci-Hub mirror (e.g., `sci-hub.se`, `sci-hub.st`).
-3.  Click **"Save and Activate"**.
+3.  Click **"Save and activate"**.
 4.  The redirection rule is updated dynamically—the new domain will be stored and used for all future redirects.
 
 ---
