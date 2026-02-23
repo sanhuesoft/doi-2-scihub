@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "DOI to Sci-Hub Redirector",
+  "version": "1.0",
+  "description": "Esta extensión redirige automáticamente cualquier enlace de tipo DOI (Digital Object Identifier) hacia tu instancia preferida de Sci-Hub. Es ideal para investigadores y académicos que buscan optimizar su flujo de trabajo, permitiendo configurar y actualizar el dominio de destino fácilmente cuando sea necesario a través de su panel de opciones.",
+  "permissions": ["declarativeNetRequest", "storage"],
+  "host_permissions": ["https://doi.org/*"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "options.html",
+    "default_icon": "icon.png"
+  },
+  "options_page": "options.html"
+}
